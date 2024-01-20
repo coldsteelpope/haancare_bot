@@ -1,5 +1,10 @@
 from tkinter import *
 from tkinter import messagebox
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from core.login import login
+
 import os
 
 class HanncareBot:
@@ -99,10 +104,15 @@ class HanncareBot:
                 event_names_file.write(total_event_name + '\n')
 
     def clickStart(self):
+        
         haancare_id = self.haancare_id.get()
         haancare_pw = self.haancare_pw.get()
-        print(haancare_id)
-        print(haancare_pw)
 
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        try:
+            login(driver, haancare_id, haancare_pw)
+        except:
+            driver.close()
+        driver.close()
 
 hanncareBot = HanncareBot()

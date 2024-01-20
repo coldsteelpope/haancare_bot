@@ -75,3 +75,5 @@ def LoginCafe24(driver):
     # NoSuchElementError 9/13
     #driver.find_element(By.XPATH, '//*[@id="frm_user"]/div/div[3]/button').click()    ㅇ걒ㄷㄱ.랴ㅜㅇ_디드둣(ㅠㅛ.테모)
     driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/section/div/form/div/div[2]/button').click()
+
+    
