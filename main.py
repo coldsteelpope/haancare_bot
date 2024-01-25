@@ -4,6 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from core.login import login
+from core.remove import removeSpecialCustomers, removeEventsInShippedBeginListPage, removeEventsInShippedEndListURL
+from core.refresh import refreshSodamPage
 
 import os
 
@@ -16,6 +18,7 @@ class HanncareBot:
     event_names_file_path = "./eventnames.txt"
     
     def __init__(self) -> None:
+
         root = Tk()
         root.title(self.bot_name)
         root.geometry(self.main_window_size)
@@ -104,15 +107,34 @@ class HanncareBot:
                 event_names_file.write(total_event_name + '\n')
 
     def clickStart(self):
-        
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         haancare_id = self.haancare_id.get()
         haancare_pw = self.haancare_pw.get()
+        bLogin = False
 
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        fileOpen = open(self.event_names_file_path, 'r', encoding='UTF-8')
+        eventAmountTitles = []
+
+        rawEventAmountTitles = fileOpen.readlines()
+        for rawEventAmountTitle in rawEventAmountTitles:
+            eventAmountTitles.append(rawEventAmountTitle.replace('\n', ''))
+
+        fileOpen.close()
+        
         try:
-            login(driver, haancare_id, haancare_pw)
+            login(self.driver, haancare_id, haancare_pw)
+            bLogin = True
         except:
-            driver.close()
-        driver.close()
+            messagebox.showerror("error", "로그인 실패")
+            bLogin = False
+        
+        if bLogin:
+            while(True):
+                removeSpecialCustomers(self.driver)
+                for eventAmountTitle in eventAmountTitles:
+                    removeEventsInShippedBeginListPage(self.driver, eventAmountTitle)
+                    removeEventsInShippedEndListURL(self.driver, eventAmountTitle)
+                refreshSodamPage(self.driver)
+        self.driver.close()
 
 hanncareBot = HanncareBot()
