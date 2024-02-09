@@ -15,7 +15,7 @@
 
 ## 3. 사용 기술
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/selenium-#43B02A?style=for-the-badge&logo=selenium&logoColor=white">
+<img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white">
 
 ## 4. 기능
 ### 4.1 배송메시지 추가 및 삭제
