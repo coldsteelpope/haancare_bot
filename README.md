@@ -14,8 +14,7 @@
 ![한케어봇 drawio](https://github.com/coldsteelpope/haancare_bot/assets/128117575/4284b68d-64b8-4f67-a1b8-be47854a10bc)
 
 ## 3. 사용 기술
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white">
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white">
 
 ## 4. 기능
 ### 4.1 배송메시지 추가 및 삭제
