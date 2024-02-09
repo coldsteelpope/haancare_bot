@@ -10,7 +10,7 @@
 
 물류 창고 포장 아르바이트에서 사무직으로 승격되어 일하던 중, 낮 12시마다 VIP 고객 중 입금 전인 고객의 입금 상태를 변경하지 못해, 크게 혼이 났던 적이 있습니다. 이를 계기로 한케어 봇에 자동으로 입금 처리까지 하는 기능을 추가하여, 저뿐만 아니라 다른 사무직 직원들이 더 이상 VIP 고객 입금 상태를 확인하지 않고 편히 일을 할 수 있는 환경을 만들었습니다.
 ## 2. 동작 설계
-
+![한케어봇 drawio](https://github.com/coldsteelpope/haancare_bot/assets/128117575/4284b68d-64b8-4f67-a1b8-be47854a10bc)
 ## 3. 사용 기술
 
 ## 4. 기능
@@ -30,7 +30,7 @@
 
 ![배송중검색](https://github.com/coldsteelpope/haancare_bot/assets/128117575/8cb53f9b-d4a8-4a5f-9f2e-0ad5cd0012f9)
 
-#### 4.4. 특정 주문건 처리
+#### 특정 주문건 처리
 ![배송준비중완료](https://github.com/coldsteelpope/haancare_bot/assets/128117575/255df6a3-4730-4ce1-a6aa-e700025f315e)
 
 ![배송중완료처리](https://github.com/coldsteelpope/haancare_bot/assets/128117575/39a14c65-b71d-4924-9c47-a699a33fae14)
