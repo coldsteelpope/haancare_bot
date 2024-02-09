@@ -33,15 +33,21 @@
 ### 4.2. 입금 처리
 ![입금처리](https://github.com/coldsteelpope/haancare_bot/assets/128117575/46605db4-d3f5-4006-8c96-7d543eb90799)
 
+아직 입금 전인 VIP 고객들의 입금 처리를 자동으로 처리합니다.
+
 ### 4.3. 특정 주문건 대량 처리
 #### 특정 주문건 검색
 ![배송준비중검색](https://github.com/coldsteelpope/haancare_bot/assets/128117575/626bf8b9-dd5a-4174-9ef8-0269da9ae5dc)
 
 ![배송중검색](https://github.com/coldsteelpope/haancare_bot/assets/128117575/8cb53f9b-d4a8-4a5f-9f2e-0ad5cd0012f9)
 
+추가된 배송 메시지를 참고해 특정 주문건을 검색합니다.
+
 #### 특정 주문건 처리
 ![배송준비중완료](https://github.com/coldsteelpope/haancare_bot/assets/128117575/255df6a3-4730-4ce1-a6aa-e700025f315e)
 
+배송 준비중 페이지에서 검색이 모두 완료되면, 처리해야 할 주문 건에 대해 "이용할 택배 회사"와 "운송장 번호"를 기입한 후, 자동으로 배송 상태를 "배송 중"으로 변경합니다.
+
 ![배송중완료처리](https://github.com/coldsteelpope/haancare_bot/assets/128117575/39a14c65-b71d-4924-9c47-a699a33fae14)
 
-## 5. 결론
+배송 중 페이지에서 검색이 모두 완료되면, 검색된 모든 주문 건을 자동으로 배송 완료로 처리합니다.
