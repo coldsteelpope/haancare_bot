@@ -9,11 +9,14 @@
 저는 해당 문제를 놓치지 않고 해결하기 위해 노력했습니다. 쉬는 시간이나 틈날 때 사무실에 들어가 파이썬을 사용하여 특정 주문건을 자동으로 처리해주는 프로그램을 개발하고 배포했습니다. 이를 통해 반복적인 작업을 더 이상 하지 않게 된 사무직 직원들은 자신의 업무에 집중할 수 있게 되었고, 물류 창고 직원들도 해당 주문건이 빠르게 처리되어 주문이 밀리는 일이 크게 줄어들었습니다. 결과적으로 해당 프로그램으로 인해 사무직과 물류 창고 간의 원망이 점점 해소되었습니다.
 
 물류 창고 포장 아르바이트에서 사무직으로 승격되어 일하던 중, 낮 12시마다 VIP 고객 중 입금 전인 고객의 입금 상태를 변경하지 못해, 크게 혼이 났던 적이 있습니다. 이를 계기로 한케어 봇에 자동으로 입금 처리까지 하는 기능을 추가하여, 저뿐만 아니라 다른 사무직 직원들이 더 이상 VIP 고객 입금 상태를 확인하지 않고 편히 일을 할 수 있는 환경을 만들었습니다.
+
 ## 2. 동작 설계
 ![한케어봇 drawio](https://github.com/coldsteelpope/haancare_bot/assets/128117575/4284b68d-64b8-4f67-a1b8-be47854a10bc)
+
 ## 3. 사용 기술
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/selenium-#43B02A?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/selenium-#43B02A?style=for-the-badge&logo=selenium&logoColor=white">
+
 ## 4. 기능
 ### 4.1 배송메시지 추가 및 삭제
 #### 배송 메시지 추가
