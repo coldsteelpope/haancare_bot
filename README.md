@@ -25,6 +25,6 @@
 #### 특정 주문건 처리
 ![배송준비중완료](https://github.com/coldsteelpope/haancare_bot/assets/128117575/255df6a3-4730-4ce1-a6aa-e700025f315e)
 
-![배송준비중완료](https://github.com/coldsteelpope/haancare_bot/assets/128117575/b81a21d7-c487-4627-a0c5-f7c768d074e1)
+![배송중완료처리](https://github.com/coldsteelpope/haancare_bot/assets/128117575/39a14c65-b71d-4924-9c47-a699a33fae14)
 
 ## 배운 점
