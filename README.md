@@ -23,8 +23,12 @@
 #### 배송 메시지 추가
 ![배송메시지추가](https://github.com/coldsteelpope/haancare_bot/assets/128117575/88785afb-48cb-41eb-b3b6-e67e2e3750f5)
 
+주문 건 처리를 원하는 제목을 리스트에 추가합니다. 추가된 제목이 주문 건에 포함되어 있으면, 한케어 봇은 해당 주문 건을 처리해야 할 주문 것으로 인식합니다.
+
 #### 배송 메시지 삭제
 ![배송메시지삭제](https://github.com/coldsteelpope/haancare_bot/assets/128117575/99738b56-c033-4520-9825-e7feed655b82)
+
+주문 건 처리 시 무시할 제목을 리스트에서 제거합니다.
 
 ### 4.2. 입금 처리
 ![입금처리](https://github.com/coldsteelpope/haancare_bot/assets/128117575/46605db4-d3f5-4006-8c96-7d543eb90799)
